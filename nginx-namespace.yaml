@@ -1,0 +1,9 @@
+## kubectl create namespace nginx 
+## kebectl apply -f nginx-namespace.yaml
+## kubectl get ns
+## kubectl get --all-namespaces 
+
+apiVersion: v1
+kind: nginx-namespace
+metadata: 
+  name: nginx
